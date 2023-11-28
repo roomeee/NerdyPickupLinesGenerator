@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerdy Pickup Lines Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="flex items-center justify-center bg-fixed bg-cover bg-center h-screen" style="background-image: url('static/redheart.jpg');">
+    <div class="bg-white p-10 rounded-lg shadow-lg max-w-md w-full text-center">
+        <h1 class="text-4xl mb-6 font-extrabold text-gray-800">Nerdy Pickup Lines Generator</h1>
+        <p class="text-xl mb-8 text-gray-700">{{ pickup_line }}</p>
+        <button onclick="location.reload()" class="px-6 py-3 bg-gradient-to-r from-pink-500 to-red-500 text-white rounded-full hover:opacity-90 focus:outline-none focus:shadow-outline-red active:bg-red-800">
+            Get Another Pickup Line
+        </button>
+    </div>
+</body>
+</html>
