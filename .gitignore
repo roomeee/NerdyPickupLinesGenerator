@@ -1,6 +1,8 @@
 # .gitignore
+danish
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 venv/
+danish
